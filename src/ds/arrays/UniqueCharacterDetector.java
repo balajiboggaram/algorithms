@@ -3,6 +3,8 @@ package ds.arrays;
 /**
  * Detect if string has all unique characters or not
  *
+ *
+ *
  */
 public class UniqueCharacterDetector {
     
@@ -16,6 +18,10 @@ public class UniqueCharacterDetector {
      * We maintain a list of boolean values and keep setting true as we see them in the given text. 
      * However, if we encounter a character which is already been seen and updated in the charSet, then we claim that
      * all the characters in the given string are not unique.
+     * 
+     * Time complexity : O(n) Since we iterate 'n' # of characters in a given string
+     * Space : O(1) - we use constant space.
+     * Aux space  : n
      */
     public boolean isUniqueWithAuxSpace(String text) {
         if(text != null && !text.isEmpty()) {
@@ -33,6 +39,8 @@ public class UniqueCharacterDetector {
     
     public static void driver() {
         UniqueCharacterDetector detector = new UniqueCharacterDetector();
+        
+        // Solution #1 : Using constant space
         System.out.println(detector.isUniqueWithAuxSpace("hello")); // false
         System.out.println(detector.isUniqueWithAuxSpace("asdfkljq")); // true
         System.out.println(detector.isUniqueWithAuxSpace(null)); // false
