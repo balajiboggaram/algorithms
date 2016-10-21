@@ -1,2 +1,2 @@
 # algorithms
-This repository holds most common datastructures and algorithms in field of computer science.
+This repository holds most common datastructures and algorithms I have learnt over course of time.
