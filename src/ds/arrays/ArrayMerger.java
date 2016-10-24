@@ -51,7 +51,7 @@ public class ArrayMerger {
 	 i = 0; // Start of first array
 	 j = n - m -1 ; // start of second array
 	 int k = 0;
-		while (k < n-1 && j<n ) {
+		while (k < n-1 ) {
 			int element1 = arr1[i];
 			int element2 = arr2[j];
 
