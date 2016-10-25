@@ -57,7 +57,18 @@ public class MedianOfSortedArrays {
 			count++;			
 		}		
 		System.out.println("Median is :" + (median1 + median2)/2);
-		
 	}
+	
+	/**
+	 * IN other way, we can compute median of first array = m1, 
+	 * median of second array = m2.
+	 * 
+	 * now, if m1 == m2, then return m1 or m2 as median of two arrays
+	 * if m2> m1, then median lies between second half of first array and first half of second array
+	 * if m1 > m2, then median lies between first half of first array and second half of second array.
+	 * 
+	 * We can simple write a recursive program to achieve this. Note : we need to handle odd/even cases too here.
+	 */
+	
 
 }
