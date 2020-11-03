@@ -1,0 +1,50 @@
+https://github.com/jiadaizhao/LeetCode 
+https://github.com/mission-peace/interview
+https://github.com/haoel/leetcode
+https://github.com/gouthampradhan/leetcode
+https://github.com/hoanhan101/algo
+https://www.youtube.com/watch?v=q15JgVVLXQg - Rachit Jain
+
+
+
+Thoughts and Ideas : 
+
+1. If there is any concept of reverse in problem or solution, Always think about Stack as a good datastructure.
+2. If there is kth element, Always think about heaps as good datastructure
+3. If there are two inputs, or If you can split the problem's input into two halves, Always think about merge step as an option
+4. Try to always see if increment/decrement the auxiliary datastructure to achieve result rather creating new temp DS.
+ex : FourSumZero
+5. If you need to take care of duplicates in input, always arrays are the best choice.
+6. In array problems, always think about if you can crack with indicies. 
+7. In array problems, if you want something to mark as visited - try making the current value as negative. 
+8. stack concepts : https://leetcode.com/problems/sum-of-subarray-minimums/discuss/178876/stack-solution-with-very-detailed-explanation-step-by-step
+
+
+
+
+Java Hacks:
+1. You can implement a treemap with sorting logic.
+2. Always use an iterator to remove or modify the map.
+3. convert int[] to List<Integer>
+	-> new ArrayList<Integer>(Arrays.stream(a).boxed().collect(Collectors.toList()))
+4. Sort based on map value - collection size. Java 8 gives really compact
+5. convert List<integer> to int[]
+	-> res.stream().mapToInt(i -> i).toArray();
+6. To clone a int[] array -> arr.clone()
+7. To do a binary search in int[] array -> Arrays.binarySearch(int[],key)
+
+
+Other Cool Hacks:
+
+To swap primitive : a += (b- (b=a))
+
+Good stack problems from lee125 :
+
+1130. Minimum Cost Tree From Leaf Values
+907. Sum of Subarray Minimums
+901. Online Stock Span
+856. Score of Parentheses
+503. Next Greater Element II
+496. Next Greater Element I
+84. Largest Rectangle in Histogram
+42. Trapping Rain Water
