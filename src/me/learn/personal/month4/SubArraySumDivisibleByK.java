@@ -45,7 +45,7 @@ public class SubArraySumDivisibleByK {
 		map.put(0, 1);
 		
 		for (int i = 0; i < a.length; i++) {
-			preSum = (preSum + a[i]) %k; 
+			preSum = (preSum + a[i]) % k; 
 			
 			if(preSum < 0) {
 				// to handle any negative

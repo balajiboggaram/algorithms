@@ -24,7 +24,7 @@ public class DivideTwoIntegers {
 		System.out.println(solution.divide(-75, -3));
 
 	}
-// alternative solution : https://www.geeksforgeeks.org/divide-two-integers-without-using-multiplication-division-and-mod-operator-set2/?ref=rp 
+
 	public int divide(int dividend, int divisor) {
 		
 		if(dividend == Integer.MIN_VALUE && divisor == -1){

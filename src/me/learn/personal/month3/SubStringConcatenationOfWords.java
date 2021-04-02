@@ -63,18 +63,18 @@ public class SubStringConcatenationOfWords {
 		int required = requiredMap.size();
 		for (int i = 0; i <= s.length() - k; i++) {
 			int formed = 0;
-			Map<String, Integer> desiredMap = new HashMap<String, Integer>();
+			Map<String, Integer> formedMap = new HashMap<String, Integer>();
 			for (int j = i; j < i+k; j += w) {
 
 				String word = s.substring(j, j + w);
 				if (!requiredMap.containsKey(word)) {
 					break;
 				} else {
-					desiredMap.put(word, desiredMap.getOrDefault(word, 0) + 1);
-					if (requiredMap.containsKey(word) && desiredMap.get(word) == requiredMap.get(word)) {
+					formedMap.put(word, formedMap.getOrDefault(word, 0) + 1);
+					if (requiredMap.containsKey(word) && formedMap.get(word) == requiredMap.get(word)) {
 						formed++;
 					}
-					if (formed == required) {
+					if (formed == required) { // count matches
 						result.add(i);
 					}
 				}

@@ -111,6 +111,9 @@ class Leaderboard {
     		if(countMap.get(prevScore) == 0)
     			countMap.remove(prevScore);
     	}
+    	
+    	// the score is here not update in the original problem. You need to CARRY FORWARD THE PREVIOUS SCORE> 
+    	// Fix it
         countMap.put(score, countMap.getOrDefault(score, 0) + 1);
 
     }

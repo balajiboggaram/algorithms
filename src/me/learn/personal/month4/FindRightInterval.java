@@ -55,21 +55,22 @@ public class FindRightInterval {
 	
 	// put the intervals into map 
 	// then try to get the highest entry - binary search
+	// ENTRY = start -> <end, index>*
 	public int[] findRightInterval(int[][] intervals) {
 
 		int m = intervals.length;
 		if (m <= 1)
 			return new int[] { -1 };
 
-		TreeMap<Integer, ArrayList<Tuple436>> map = new TreeMap<>();
+		TreeMap<Integer, ArrayList<Tuple>> map = new TreeMap<>();
 
 		for (int i = 0; i < m; i++) {
-			map.computeIfAbsent(intervals[i][0], x -> new ArrayList<Tuple436>()).add(new Tuple436(intervals[i][1], i));
+			map.computeIfAbsent(intervals[i][0], x -> new ArrayList<Tuple>()).add(new Tuple(intervals[i][1], i));
 		}
 
 		int[] result = new int[m];
 		for (int i = 0; i < m; i++) {
-			Entry<Integer, ArrayList<Tuple436>> higherEntry = map.higherEntry(intervals[i][1]-1);
+			Entry<Integer, ArrayList<Tuple>> higherEntry = map.higherEntry(intervals[i][1]-1);
 			if(higherEntry == null) {
 				result[i] = -1;
 			} else {
@@ -80,15 +81,17 @@ public class FindRightInterval {
 		return result;
 
 	}
+	
 
-}
-
-class Tuple436 {
+class Tuple {
 	int end;
 	int index;
 
-	public Tuple436(int end, int index) {
+	public Tuple(int end, int index) {
 		this.end = end;
 		this.index = index;
 	}
 }
+
+}
+

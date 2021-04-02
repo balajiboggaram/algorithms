@@ -41,7 +41,7 @@ public class MaximalRectangle {
 		if(m == 0) return 0;
 		int n = a[0].length;
 		
-		int[] dp = new int[n];
+		int[] dp = new int[n]; // column size
 		int maxArea = 0;
 		for (int i = 0; i < m; i++) {
 			for (int j = 0; j < n; j++) {

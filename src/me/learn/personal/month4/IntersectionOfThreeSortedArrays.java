@@ -39,10 +39,11 @@ public class IntersectionOfThreeSortedArrays {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		IntersectionOfThreeSortedArrays solution = new IntersectionOfThreeSortedArrays();
+		solution.arraysIntersection(new int[] {1,2,3,4,5},new int[] {1,2,5,7,9},new int[] {1,3,4,5,8});
 	}
-	
+		
 	// You can just implement this with three simple i j and k pointers. 
 	// The question description can be imporoved. especially on length etc.
 	public List<Integer> arraysIntersection(int[] a1, int[] a2, int[] a3) {

@@ -52,7 +52,7 @@ public class ShortestWordDistance3 {
 				}
 			}
 		} else {
-			//different word
+			//different word -> same as shortest word distance 1 problem
 			for (int i = 0; i < words.length; i++) {
 				if (word1.equals(words[i])) {
 					index1 = i;

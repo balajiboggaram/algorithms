@@ -39,11 +39,13 @@ public class PalindromePairs {
 	
 	// REPEAT
 	public List<List<String>> palindromePairs(String[] words) {
+		// REVERSE WORDS
 		Set<String> reversedWords = new HashSet<>();
 		for(String w : words) {
 			reversedWords.add(new StringBuilder(w).reverse().toString());
 		}
 		
+		// NOW FIND PALIN BASED ON REVERSE WORDS
 		List<List<String>> result = new ArrayList<List<String>>();
 		for(String w : words) {
 			Set<String> palindromePairs = findPalindromeHelper(w, reversedWords);

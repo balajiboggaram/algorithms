@@ -44,7 +44,7 @@ public class IntegerToEnglishWords {
 	 */
 	public static void main(String[] args) {
 		IntegerToEnglishWords solution = new IntegerToEnglishWords();
-		System.out.println(solution.numberToWords(365));
+		System.out.println(solution.numberToWords(2123));
 	}
 
 	
@@ -60,10 +60,10 @@ public class IntegerToEnglishWords {
 
 		while (num > 0) {
 
-			if (num % 1000 != 0)
-				// indicates its greater than 1000
+			// indicates its greater than 1000
+			if (num % 1000 != 0) {
 				words = numToWord(num % 1000) + thousands[i] + " " + words;
-
+			}
 			num = num / 1000;
 			i++;
 		}

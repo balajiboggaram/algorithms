@@ -57,7 +57,7 @@ public class SurroundedRegions {
 			return;
 		int n = a[0].length;
 
-		// mark the nodes first and last column
+		// mark the nodes first and last column // Change to E
 		for (int i = 0; i < m; i++) {
 			if (a[i][0] == 'O')
 				markNodes(a, i, 0);

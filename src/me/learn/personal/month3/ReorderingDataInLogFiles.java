@@ -52,7 +52,7 @@ public class ReorderingDataInLogFiles {
 
 	public String[] reorderLogFiles(String[] logs) {
 		Arrays.sort(logs, (log1, log2) -> {
-			String[] split1 = log1.split(" ", 2);
+			String[] split1 = log1.split(" ", 2); // the pattern split is applied twice -> we get two parts
 			String[] split2 = log2.split(" ", 2);
 			boolean isDigit1 = Character.isDigit(split1[1].charAt(0));
 			boolean isDigit2 = Character.isDigit(split2[1].charAt(0));

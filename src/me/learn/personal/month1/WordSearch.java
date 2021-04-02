@@ -11,6 +11,7 @@ public class WordSearch {
 
 	}
 
+	// Basically checks if a given word exists in boggle or not ?
 	public boolean exist(char[][] board, String word) {
 		int m = board.length;
 		int n = board[0].length;

@@ -80,7 +80,7 @@ public class WordLadder {
 				char[] word = wordString.toCharArray();
 				int wordLength = wordString.length();
 
-				// Now try to fetch all the combinations
+				// Now try to fetch all the combinations, replace with 26 
 				for (int pos = 0; pos < wordLength; pos++) {
 
 					char backUp = word[pos]; // track here so that we can backtrack later

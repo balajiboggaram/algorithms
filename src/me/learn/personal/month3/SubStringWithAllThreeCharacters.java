@@ -43,11 +43,14 @@ public class SubStringWithAllThreeCharacters {
 	
 	// TWO POINTERS - Beautiful
 	public int numberOfSubstrings(String s) {
+		// ENTRY : char -> count
 		Map<Character, Integer> m = new HashMap<Character, Integer>();
 		int start = 0;
 		int result = 0, n = s.length();
 
+		// ........ j..........n
 		for (int j = 0; j < n; j++) {
+			
 			char ch = s.charAt(j);
 			m.put(ch, m.getOrDefault(ch, 0) + 1);
 
