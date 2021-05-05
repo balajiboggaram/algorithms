@@ -1,0 +1,10 @@
+
+Dec 8, 2020 
+
+https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/discuss/414633/Java-Easy-Java-Solution-Stack-based-on-String-Ex%3A-%221-3-5-6-2-4%22
+
+Thread safe blocking queue : http://tutorials.jenkov.com/java-util-concurrent/blockingqueue.html 
+
+Security/Design SME Prep : 
+
+https://openid.net/connect/

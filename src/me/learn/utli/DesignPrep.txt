@@ -1,0 +1,94 @@
+
+
+System design topics : https://github.com/donnemartin/system-design-primer#index-of-system-design-topics 
+
+https://www.hiredintech.com/classrooms/system-design/lesson/55
+
+https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview
+
+www.systeminterview.com
+
+API security + best practices checklist : https://github.com/shieldfy/API-Security-Checklist 
+
+REST frameworks : https://github.com/yosriady/api-development-tools
+
+
+https://github.com/madd86/awesome-system-design
+=------
+
+Read the system design grokking basic concepts 
+Read donne martin basic concepts
+https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/README.md
+
+twitter : https://github.com/donnemartin/systrestem-design-primer/blob/master/solutions/system_design/twitter/README.md
+https://leetcode.com/discuss/career/229177/My-System-Design-Template
+
+
+RAID : https://www.geeksforgeeks.org/raid-redundant-arrays-of-independent-disks/
+
+Redis Tutorial : http://qnimate.com/overview-of-redis-architecture/ 
+Rabit MQ basics : https://medium.com/swlh/a-quick-guide-to-understanding-rabbitmq-amqp-ba25fdfe421d 
+Rabit MQ Detailed : https://www.tutlane.com/tutorial/rabbitmq/rabbitmq-exchanges 
+
+HA proxy concepts : https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts
+
+Kafka : https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiBmfiP0OXuAhW0FTQIHdF1BmwQFjAAegQIAxAC&url=https%3A%2F%2Fwww.tutorialspoint.com%2Fapache_kafka%2Fapache_kafka_tutorial.pdf&usg=AOvVaw0hHiNC0pjIEKBF7VcSnnWy
+Kafka logs : https://medium.com/@durgaswaroop/a-practical-introduction-to-kafka-storage-internals-d5b544f6925f
+
+https://www.youtube.com/watch?v=PzPXRmVHMxI
+
+Consistent Hashing : 
+
+NO SQL :  http://horicky.blogspot.com/2009/11/nosql-patterns.html
+
+
+====== DESIGN QUESTIONS ======
+
+Google Drive : https://towardsdatascience.com/system-design-analysis-of-google-drive-ca3408f22ed3 
+Google Auto suggestion : https://codeburst.io/system-design-analysis-for-auto-suggestion-service-d28bf1701658
+https://dingdingsherrywang.medium.com/system-design-autocomplete-62420021adb0
+
+Centralized Loggin : https://aws.amazon.com/solutions/implementations/centralized-logging/
+
+Chat System : https://systeminterview.com/design-a-chat-system.php or
+https://www.codekarle.com/system-design/Whatsapp-system-design.html
+
+
+======= SECURITY ====== 
+
+
+Cloud Security - Pdf CSSK or CCSP book
+
+IAM Overview : https://www.youtube.com/watch?v=Tcvsefz5DmA
+SAML 2.0 - https://www.youtube.com/watch?v=SvppXbpv-5k
+OpenID Connect - https://www.youtube.com/watch?v=rTzlF-U9Y6Y 
+OIDC security best practices : https://tools.ietf.org/id/draft-ietf-oauth-security-topics-12.html#rfc.section.4.7 
+
+k8s : https://www.udemy.com/course/learn-kubernetes/learn/lecture/9723226#overview 
+service mesh on k8s : https://www.weave.works/blog/introduction-to-service-meshes-on-kubernetes-and-progressive-delivery 
+Envoy Proxy service (side car) : https://www.envoyproxy.io/docs/envoy/latest/intro/what_is_envoy
+
+Security Guidance 4 FINAL pdf 
+
+
+4 step guide - https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview
+https://tianp an.co/notes/49-facebook-tao -> go through the problems here, one by one yourself
+
+
+Map Reduce : https://www.tutorialspoint.com/map_reduce/map_reduce_quick_guide.htm 
+Hadoop : https://www.tutorialspoint.com/hadoop/index.htm 
+ 
+microservices architecture : https://cloudncode.blog/2016/07/22/msa-getting-started/
+ 
+ Architect system to scale : https://lethain.com/introduction-to-architecting-systems-for-scale/
+ 
+ 
+ 
+ Federation : https://www.youtube.com/watch?v=CjarTgjKcX8
+ 
+ Miscellaneous : 
+ 
+ Edge computing: https://www.cloudflare.com/learning/serverless/glossary/what-is-edge-computing/
+ 
+
+ 

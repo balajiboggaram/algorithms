@@ -1,0 +1,4 @@
+Snowflake : 
+https://www.geeksforgeeks.org/closest-pair-of-points-onlogn-implementation/
+
+Blocking Queue : https://www.journaldev.com/1034/java-blockingqueue-example

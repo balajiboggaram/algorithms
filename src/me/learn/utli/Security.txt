@@ -1,0 +1,95 @@
+
+ CSRF Mitigration : https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html 
+ 
+
+PKI Security - 
+
+https://www.tutorialspoint.com/cryptography/public_key_infrastructure.htm DONE
+https://www.giac.org/paper/gsec/2171/idiots-guide-public-key-infrastructure/103692
+
+Cryptography -
+https://www.tutorialspoint.com/cryptography/index.htm
+
+OpenID -
+https://openid.net/connect/
+
+OAuth 2.0- (4 main flows)
+https://www.tutorialspoint.com/oauth2.0/oauth2.0_overview.htm 
+https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2 
+
+LDAP -
+https://tools.ietf.org/html/rfc4511
+https://tools.ietf.org/html/rfc4517
+https://courses.cs.vt.edu/~cs5204/fall05-kafura/Papers/Naming/PagesFromUnderstandingLDAP.pdf
+
+RBAC (Role based access control) via LDAP-
+https://ldapcon.org/2011/downloads/gietzwidmer-slides.pdf
+
+SCIM [Cross Domain Identity and Access Management] -
+https://tools.ietf.org/html/rfc7642 
+
+SAML 2.0 based SSO -
+http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.pdf 
+basics - https://www.pingidentity.com/en/resources/client-library/articles/saml.html 
+SAML white paper : https://go.pingidentity.com/SG0J2O0TM0u0HMA0q00ehWA
+
+PAM Linux Modules -
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/managing_smart_cards/pluggable_authentication_modules
+
+Least Privilege Access Model  - Pdf What it is and Why you need it ?
+ 
+PAM Modules ; https://www.redhat.com/sysadmin/pluggable-authentication-modules-pam 
+ 
+SSSD : 
+ https://wiki.archlinux.org/index.php/LDAP_authentication#Online_and_Offline_Authentication_with_SSSD
+ https://wiki.debian.org/LDAP/PAM
+ https://community.cloudera.com/t5/Community-Articles/How-PAM-NSS-SSD-work-together-on-Linux-OS/ta-p/247879
+ 
+ Netgroups : 
+ https://ldapwiki.com/wiki/Netgroup
+ https://docs.oracle.com/cd/E19683-01/816-7511/anis2-14244/index.html
+ 
+ NIS maps : https://docs.oracle.com/cd/E19683-01/816-7511/6mdgu0h1n/index.html
+ NIS overview : https://docs.oracle.com/cd/E19683-01/816-7511/6mdgu0h15/index.html
+ NSSwitch : https://docs.oracle.com/cd/E19683-01/816-7511/6mdgu0gvb/index.html
+ Replace NIS with LDAP : https://aput.net/~jheiss/krbldap/howto.html 
+ 
+TLS : https://www.cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake/
+SSL: https://www.cloudflare.com/learning/ssl/how-does-ssl-work/
+
+
+SSSD Authn : 
+https://sssd.io/
+https://docs.fedoraproject.org/en-US/Fedora/15/html/Deployment_Guide/chap-SSSD_User_Guide-Introduction.html
+
+Kerberos Authentication Services  -
+https://tools.ietf.org/html/rfc4120 
+https://www.kerberos.org/software/tutorial.html
+Kerberos : https://www.youtube.com/watch?v=_44CHD3Vx-0
+Kerberos.pdf
+https://redmondmag.com/Articles/2012/02/01/Understanding-the-Essentials-of-the-Kerberos-Protocol.aspx?Page=1
+
+Security Testing - 
+https://www.tutorialspoint.com/security_testing/index.htm
+
+Certifications :
+
+https://www.linkedin.com/in/shahnawaz-sabuwala/ - this guy has amazing certifications
+https://www.linkedin.com/learning/web-security-oauth-and-openid-connect-2/using-oauth-2-0-and-openid-connect
+https://www.linkedin.com/learning/me
+
+Security Related : 
+
+[Authentication Methods]
+https://blog.restcase.com/4-most-used-rest-api-authentication-methods/
+
+[Authn Basics]
+https://blog.restcase.com/restful-api-authentication-basics/
+
+Certified Cloud Security Professional
+CCSP : https://www.youtube.com/channel/UCfZMpaSGpTa4JoqoZHCJBcw 
+
+OWASP top 10 : https://owasp.org/www-project-top-ten/
+
+threat modelling STRIDE : https://salesforce.quip.com/akc4AcGnBzI6
+https://haiderm.com/application-threat-modeling-using-dread-and-stride/

@@ -5,7 +5,9 @@ https://github.com/gouthampradhan/leetcode
 https://github.com/hoanhan101/algo
 https://www.youtube.com/watch?v=q15JgVVLXQg - Rachit Jain
 
+System Design : https://leetcode.com/discuss/interview-question/system-design?currentPage=1&orderBy=most_votes&query=
 
+good set of questions (asked in companies) : https://github.com/vineetjohn/daily-coding-problem/blob/master/README.md
 
 Thoughts and Ideas : 
 

@@ -1,0 +1,1 @@
+Thread safe blocking queue : http://tutorials.jenkov.com/java-util-concurrent/blockingqueue.html 

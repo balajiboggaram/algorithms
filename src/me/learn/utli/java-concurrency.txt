@@ -1,0 +1,7 @@
+deadlock and avoidance : https://javarevisited.blogspot.com/2018/08/how-to-avoid-deadlock-in-java-threads.html#axzz6mtVvW7DK
+
+synchronized : https://javarevisited.blogspot.com/2011/04/synchronization-in-java-synchronized.html#axzz6mtVvW7DK 
+
+top 50 questions : https://javarevisited.blogspot.com/2014/07/top-50-java-multithreading-interview-questions-answers.html#axzz4jaJmaqbE
+
+(Mother) Java concurrency : http://tutorials.jenkov.com/java-concurrency/blocking-queues.html

@@ -1,0 +1,72 @@
+******* Cryptography *********
+
+Types of attacks : https://www.tutorialspoint.com/cryptography/cryptography_quick_guide.htm
+
+ Cryptography : https://www.tutorialspoint.com/cryptography/cryptosystems.htm
+ Types of attacks in PKI : https://www.tutorialspoint.com/cryptography/attacks_on_cryptosystems.htm
+ RSA : https://www.tutorialspoint.com/cryptography/public_key_encryption.htm
+ Hash Function : https://www.tutorialspoint.com/cryptography/cryptography_hash_functions.htm
+ MAC : https://www.tutorialspoint.com/cryptography/message_authentication.htm
+ PKI : https://www.tutorialspoint.com/cryptography/public_key_infrastructure.htm
+ Digitial Signatures : https://www.tutorialspoint.com/cryptography/cryptography_digital_signatures.htm
+ 
+****** OpenID Connect ********
+
+OIDC security best practices : 
+https://tools.ietf.org/id/draft-ietf-oauth-security-topics-12.html#rfc.section.4.7 
+
+https://www.tutorialspoint.com/oauth2.0/oauth2.0_overview.htm 
+ 
+Which Oauth flow to use : https://auth0.com/docs/authorization/which-oauth-2-0-flow-should-i-use
+ 
+Oauth PKCE :  https://auth0.com/docs/flows/authorization-code-flow-with-proof-key-for-code-exchange-pkce
+
+Token best proactices : https://auth0.com/docs/best-practices/token-best-practices 
+
+*********** SAML 2.0 ************
+https://en.wikipedia.org/wiki/SAML_2.0
+
+SP initiated flow : https://developer.okta.com/docs/concepts/saml/ 
+
+******* PKI **************
+https://blog.cloudflare.com/how-to-build-your-own-public-key-infrastructure/
+
+******** SCIM ***********
+
+https://developer.okta.com/docs/concepts/scim/
+
+****** XACML ********
+
+Wiki : https://en.wikipedia.org/wiki/XACML
+
+JSON profile : http://docs.oasis-open.org/xacml/xacml-json-http/v1.0/xacml-json-http-v1.0.html 
+Authzforce : https://authzforce.ow2.org/#
+
+********* Kerberos **********
+
+https://tools.ietf.org/html/rfc4120 
+
+Super : https://www.kerberos.org/software/tutorial.html
+Kerberos : https://www.youtube.com/watch?v=_44CHD3Vx-0
+https://redmondmag.com/Articles/2012/02/01/Understanding-the-Essentials-of-the-Kerberos-Protocol.aspx?Page=1
+Kerberos attacks : https://www.varonis.com/blog/kerberos-authentication-explained/
+
+***** Role based Access Control ********
+
+RBAC : https://auth0.com/docs/authorization/rbac 
+
+****** POLP Principle of Least Privileege Model ****
+
+https://digitalguardian.com/blog/what-principle-least-privilege-polp-best-practice-information-security-and-compliance
+
+******* FEDERATION IDP *********
+
+https://www.slideshare.net/wso2.org/security-patterns-with-wso2-esb?next_slideshow=1
+Federation architectures : https://wiki.geant.org/display/eduGAIN/Federation+Architectures 
+
+****** Hybrid Cloud ******
+
+https://cloud.google.com/solutions/patterns-for-authenticating-corporate-users-in-a-hybrid-environment
+
+super : https://cloud.google.com/solutions/patterns-for-authenticating-corporate-users-in-a-hybrid-environment#federating_active_directory_with_cloud_identity_by_using_gcds_and_ad_fs
+migration : https://cloud.google.com/solutions/hybrid-and-multi-cloud-patterns-and-practices#improve_and_move

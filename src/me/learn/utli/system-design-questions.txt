@@ -1,0 +1,43 @@
+Rules of Enterprise to Cloud migration : 
+https://cloudacademy.com/blog/understanding-cloud-migration-in-the-enterprise/ 
+
+https://blog.newrelic.com/engineering/cloud-migration-checklist/
+
+--------------------------------------
+
+0. Scale from 0 users to 1 million users
+https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/README.md
+
+1. Whatsapp messaging system 
+https://www.codekarle.com/system-design/Whatsapp-system-design.html
+https://systeminterview.com/design-a-chat-system.php
+
+2. Web crawler - Educative.io
+
+3. Twitter 
+https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/twitter/README.md
+
+4. Tiny URL 
+https://www.educative.io/courses/grokking-the-system-design-interview/m2ygV4E81AR
+
+5. Uber system design 
+https://medium.com/@narengowda/uber-system-design-8b2bc95e2cfe
+https://www.codekarle.com/system-design/Uber-system-design.html
+
+6. Netflix  or youtube
+Netflix : https://medium.com/@narengowda/netflix-system-design-dbec30fede8d
+youtube : https://systeminterview.com/design-youtube.php
+
+7. Rate limitter
+eucative.io - Papers (Leaky Bucket is another good one)
+https://www.youtube.com/watch?v=mhUQe4BKZXs
+https://cloud.google.com/solutions/rate-limiting-strategies-techniques
+
+8. Typeahead suggestion / Search 
+Educative papers - 
+Java Program
+
+9. Tiny URL shortener
+Grokking is good.
+
+10. Yelp - Add/Remove places, Search places nearby me
